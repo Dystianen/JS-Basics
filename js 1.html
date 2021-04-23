@@ -1,0 +1,134 @@
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>function</title>
+</head>
+
+<body>
+        <script>
+                //=================================================================
+                //BAB FUNCTION
+                //=================================================================
+
+                // function food(name, language){
+                //     if(language === "english"){
+                //         return `good morning ${name}`
+                //     } else if(language === "french"){
+                //         return `good afternoon ${name}`
+                //     } else if(language === "Indonesia") {
+                //         return `good night ${name}`
+                //     }else{
+                //         return `good bye ${name}`
+                //     }
+                // }
+                // let result = food("adis", "jawa");
+                // console.log(result);
+
+                //=================================================================
+                //ARROW FUNCTION
+                //=================================================================
+
+                // const hello = () => {
+                //     console.log("selamat pagi semuanya semangat bekerja bosku");
+                // }
+                // hello();
+
+                // const hello = (name) => console.log(`my name is ${name}`);
+                // hello("adis");
+
+                // const perkalian = (a,b) => a % b;
+                // console.log(perkalian(14, 3));
+
+                //=================================================================    
+                //FUNCTION CLOSURE
+                //=================================================================
+
+                // let add = () =>{
+                //     let counter = 0;
+                //     return() =>{
+                //         return ++counter;
+                //     }
+                // }
+                // let addCounter = add();
+                // console.log(addCounter());
+                // console.log(addCounter());
+                // console.log(addCounter());
+
+                //=================================================================
+                //KUIZ 3 DICODING
+                //=================================================================
+
+                //1.    // function minimal(a, b) {
+                //     if (a < b) {
+                //         return a;
+                //     } else if (a > b) {
+                //         return b;
+                //     } else if(a == b){
+                //         return a;
+                //     } else {
+                //         return a;
+                //     }
+                // }
+                // minimal(4, 2);
+                //2     // 
+                // function power(a, b){
+                //     return Math.pow(a, b);
+                // }
+                // power(12, 2);
+
+                //=================================================================
+                //BILANGAN PRIMA
+                //=================================================================
+
+                // function prima() {
+                //     for(i = 0; i < 100; i++){
+                //         if(i % 2 === 1){
+                //             console.log(i);
+                //         }
+                //     }
+                // }
+                // let result = prima();
+                // console.log(result);
+                //=================================================================
+                // LOGICAL OPERATOR
+                //=================================================================
+
+                // function umur(umurKu, umurNya){
+                //     if(umurKu < umurNya){
+                //         console.log("TRUE");
+                //     } else {
+                //         console.log("FALSE");
+                //     }
+                // }
+                // umur(4, 3)
+                // console.log(umur);
+
+                //=================================================================
+                // PROPERTY & METHOD
+                //=================================================================
+
+// 1                class Mail {
+//                         from = "distian.enyus@gmail.com";
+//                         contacts = [];
+//                         sendMessage = function (msg, to, from) {
+//                                 console.log('you send:', msg, 'to', to, 'from', this.from);
+//                         }
+//                 }
+//                 const mail1 = new Mail();
+//                 mail1.sendMessage("Selamat pagi", "eka", "dystian");
+
+// 2             // class mail{
+//                         from = "eka trisnawati";
+//                         contacts = [];
+//                         sendMessage = function(msg, to){
+//                                 console.log("you send:", msg, "to", to, "from", this.from);
+//                         this.contact.push(to);
+//                         };
+//                 }
+        </script>
+</body>
+
+</html>
